@@ -116,7 +116,7 @@ body {
               min-height: 100vh;
               display: flex;
               align-items: center;
-              background:url(bg.png) no-repeat;
+              background:url(/images/bg.png) no-repeat;
               background-size: cover;
               background-position: center;
           }
