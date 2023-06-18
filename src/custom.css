@@ -776,6 +776,10 @@
      width: 90%;
      max-width: 750px;
    }
+
+   footer{
+    position: fixed;
+   }
    
    .footer-wrap {
      display: block;
