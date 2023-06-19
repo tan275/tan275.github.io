@@ -3,7 +3,7 @@ let count = 0;
 let index = 0;
 let currentText = '';
 let letter = '';
-var speed=50;
+var speed=30;
 
 (function type(){
 
