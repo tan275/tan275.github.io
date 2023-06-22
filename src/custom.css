@@ -3459,7 +3459,7 @@ f/* Generated on: Fri Dec 23 2022 23:16:04 GMT+0000 (Coordinated Universal Time)
      }
    
      .navigation-item {
-       padding: 10px 16px;
+       
        -webkit-transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
        transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
        text-align: center;
