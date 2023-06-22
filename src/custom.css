@@ -493,7 +493,7 @@ f/* Generated on: Fri Dec 23 2022 23:16:04 GMT+0000 (Coordinated Universal Time)
    }
    
    .navigation-item.w--current {
-     display: inline-block;
+     
      width: 20%;
      opacity: 1;
      font-family: Montserrat, sans-serif;
@@ -549,7 +549,7 @@ f/* Generated on: Fri Dec 23 2022 23:16:04 GMT+0000 (Coordinated Universal Time)
      grid-template-rows: auto;
    }
    
-   .navigation {
+   .{
      position: relative;
      z-index: auto;
      display: flex;
@@ -3928,7 +3928,7 @@ f/* Generated on: Fri Dec 23 2022 23:16:04 GMT+0000 (Coordinated Universal Time)
        padding-left: 0px;
      }
    
-     .navigation {
+     .{
        padding: 20px 30px;
      }
    
@@ -4310,7 +4310,7 @@ f/* Generated on: Fri Dec 23 2022 23:16:04 GMT+0000 (Coordinated Universal Time)
        padding-left: 0px;
      }
    
-     .navigation {
+     .{
        padding-right: 20px;
        padding-left: 20px;
      }
