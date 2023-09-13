@@ -1,4 +1,4 @@
-/* Generated on: Fri Dec 23 2022 23:16:04 GMT+0000 (Coordinated Universal Time) */
+f/* Generated on: Fri Dec 23 2022 23:16:04 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -469,7 +469,7 @@
    }
    
    .navigation-item {
-     display: inline-block;
+     
      width: 13%;
      margin-right: 0px;
      margin-left: 0px;
@@ -493,7 +493,7 @@
    }
    
    .navigation-item.w--current {
-     display: inline-block;
+     
      width: 20%;
      opacity: 1;
      font-family: Montserrat, sans-serif;
@@ -549,10 +549,11 @@
      grid-template-rows: auto;
    }
    
-   .navigation {
+   .{
      position: relative;
      z-index: auto;
-     display: block;
+     display: flex;
+   flex-direction: column;
      overflow: visible;
      width: 100%;
      padding: 30px 50px;
@@ -3458,7 +3459,7 @@
      }
    
      .navigation-item {
-       padding: 10px 16px;
+       
        -webkit-transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
        transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
        text-align: center;
@@ -3927,7 +3928,7 @@
        padding-left: 0px;
      }
    
-     .navigation {
+     .{
        padding: 20px 30px;
      }
    
@@ -4309,7 +4310,7 @@
        padding-left: 0px;
      }
    
-     .navigation {
+     .{
        padding-right: 20px;
        padding-left: 20px;
      }
