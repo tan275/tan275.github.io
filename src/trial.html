@@ -1,23 +1,25 @@
 <html>
 	<head>
-		<style media="all">
-			.mobile-display{display:none}
-			.desktop-display{display:block}
-			@media (max-width:800px){
-			.desktop-display {display:none}
-			.mobile-display {display:block}
-			}
-			</style>
+		
 	</head>
 	<body>
-
-		<div class="mobile-display">
-			My mobile content.
-			</div>
-
-		<div class="desktop-display">
-				My desktop content.
-				</div>		
+		<div class="ad">
+			<template class="ad__mobile">
+			  // Mobile ad HTML code with inline script
+			</template>
+			<template class="ad__desktop">
+			  // Desktop ad HTML code with inline script
+			</template>
+			<script>
+			  const isMobile = matchMedia('(max-device-width: 20em)').matches;
+			  const ad = document.currentScript.closest('.ad');
+			  const content = ad
+				.querySelector(isMobile ? '.ad__mobile' : '.ad__desktop')
+				.content;
+			  
+			  ad.appendChild(document.importNode(content, true));
+			</script>
+		  </div> 
 				
 				
 
